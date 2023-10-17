@@ -9,11 +9,15 @@ export default {
     extend: {
       colors: {
         'text': 'rgb(255, 255, 255)',
-        'background': 'rgb(0, 0, 0)',
+        'background': 'rgb(10, 9, 9)',
         'primary': 'rgb(1, 81, 198)',
-        'secondary': 'rgb(0, 59, 109)',
+        'secondary': 'rgb(16, 16, 16)',
         'accent': 'rgb(0, 123, 192)',
-     },},
+       },
+       fontSize: {
+        'body-lg': '1rem',
+        'body': '.5rem',
+      }},
   },
   plugins: [
     plugin(function({ addUtilities, addComponents, e, prefix, config }) {
