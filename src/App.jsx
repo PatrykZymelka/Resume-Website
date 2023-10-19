@@ -5,11 +5,13 @@ import { HashLink as Link } from "react-router-hash-link";
 import Qualifications from "./Pages/Qualifications";
 import Contact from "./Pages/Contact";
 
+
 function App() {
   return (
-    <div className="bg-background h-screen w-screen overflow-x-hidden overflow-y-scroll truncate">
+    <div className="bg-background h-screen w-screen overflow-y-scroll truncate">
       <div className="grid-cols-2">
-        <div className="vertical-lr fixed top-0 right-0 flex justify-evenly  h-screen pr-3 bg-secondary text-white pl-3 text-base border-l-2 border-primary font-bold">
+        <div className="max-[500px]:scale-0 vertical-lr fixed top-0 right-0 flex justify-evenly gap-20  h-screen pr-3 bg-secondary text-white pl-3 text-base border-l-2 border-primary font-bold">
+          
           <Link to="#About" smooth>
             About
           </Link>
