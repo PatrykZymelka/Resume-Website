@@ -2,3 +2,42 @@
 body{
     font-family:'Montserrat'
 }
+.blob{
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 256px;
+    height: 256px;
+    background: rgb(0,71,196);
+    background: linear-gradient(338deg, rgb(0, 197, 82) 0%, rgb(0, 57, 243) 100%);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    filter:blur(120px);
+    animation: blob 8s linear infinite;
+    z-index:0;
+    @media only screen and (max-width: 500px) {
+        scale:0;
+        opacity:0;
+        
+    }
+}
+
+@keyframes blob{
+    from {  
+        transform: rotate(0deg);
+        transform:scale(1, 1);
+    }
+    50%{   
+        transform:scale(1, 1.5);
+        transform: rotate(180deg);
+    }
+    to {  
+        transform:scale(1, 1.5);
+        transform: rotate(360deg);
+    }
+
+}

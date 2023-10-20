@@ -1,16 +1,11 @@
 .innerCard{
-    height:calc(100% - 2px);
-    width:calc(100% - 2px);
-    background-color: rgb(24, 24, 24);
-    margin:1px;
+    height:calc(100% - 4px);
+    width:calc(100% - 4px);
+    background-color: rgb(14, 13, 13);
+    margin:2px;
     border-radius:6px;
     display:grid;
-    grid-template-rows:15% 85%;
-}
-.innerCard::before{
-    background: radial-gradient(
-        800px circle at var(--mouse-x) var(--mouse-y),
-        rgba(255,255,255,0.06),
-        transparent 40%
-    )
+    justify-items:center;
+    text-align:center;
+    
 }

@@ -4,6 +4,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      transitionDuration: ["hover", "focus"],
+      translate:{
+        50: "-50%"
+      },
       colors: {
         text: "rgb(255, 255, 255)",
         background: "rgb(10, 9, 9)",
@@ -22,7 +26,9 @@ export default {
         "300%": "300%",
       },
       animation: {
-        gradient: "animatedgradient 8s linear infinite",
+        gradient: "animatedgradient 20s linear infinite",
+        fgrad: "animatedgradient 5s linear infinite",
+        
       },
     },
   },
