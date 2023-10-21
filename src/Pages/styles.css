@@ -1,11 +1,58 @@
 .innerCard{
     height:calc(100% - 4px);
     width:calc(100% - 4px);
-    background-color: rgb(14, 13, 13);
+    background-color: #0e0d0d    ;
     margin:2px;
     border-radius:6px;
     display:grid;
     justify-items:center;
     text-align:center;
     
+}
+.innerCard2{
+    height:calc(100% - 4px);
+    width:calc(100% - 4px);
+    background-color: #0e0d0d    ;
+    margin:2px;
+    border-radius:6px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:50% 50%;
+    justify-items:center;
+    text-align:center;
+    align-items:center
+    
+}
+.Small{
+    opacity:0;
+    transition-duration: 0.5s;
+    text-shadow: 2px 2px 5px black;
+}
+.Big{
+    display:grid;
+    justify-items:center;
+    transition-duration: 0.5s;
+
+    
+}
+
+.Big:hover .Small{
+    opacity:1
+}
+.Big:hover{
+    scale:1.1;
+}
+.back{
+    width:10vw;
+    height:10vw;
+    align-self:center;
+    justify-self: center;
+    position:absolute;
+    opacity:0;
+    filter:blur(20px);
+    z-index: -1;
+    transition-duration: 0.5s;
+}
+.Big:hover .back{
+    opacity:1
 }

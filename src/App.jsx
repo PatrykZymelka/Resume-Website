@@ -47,7 +47,7 @@ function App() {
             Contact
           </Link>
         </div>
-        <div className="grid-cols-1 grid-rows-1 w-4/5 justify-items-center z-10">
+        <div className="grid w-4/5 justify-items-center z-10">
           <About />
           <Qualifications />
           <Proj />
