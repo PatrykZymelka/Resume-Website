@@ -1,15 +1,15 @@
-
+import "./styles.css"
 
 
 function Qualifications() {
     return(
         <div className="h-screen min-[500px]:w-[90vw] w-screen" id="Qualifications">
-        <div className=" text-white justify-items-center grid grid-cols-2" >
-        <h1>The Languages I use</h1>
-        <h1>The Technologies I use</h1>
+        <div className=" text-white text-xl justify-items-center grid grid-cols-2" >
+        <h1 className="z-20 shadow-md pb-5 font-bold ">The Languages I use</h1>
+        <h1 className="z-20 shadow-md pb-5 font-bold ">The Technologies I use</h1>
         </div>
         <div className=" text-white h-[70%] justify-items-center grid grid-cols-2 justify-center">
-        <div id="back" className="row-span-2 max-[500px]:mt-5  aspect-square  justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
+        <div id="back" className="max-[500px]:mt-5  min-[1000px]:aspect-square  justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
             <div className="innerCard2">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" className="Big">
                 <img className="back" src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" alt="JavaS"/>
@@ -35,7 +35,7 @@ function Qualifications() {
                 </a>
             </div>
             </div>
-            <div id="back" className="row-span-2 max-[500px]:mt-5  aspect-square justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
+        <div id="back" className="max-[500px]:mt-5 min-[1000px]:aspect-square justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
                 <div className="innerCard2">
             <a href="https://pl.legacy.reactjs.org" className="Big">
                 <img className="back" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="React"/>
