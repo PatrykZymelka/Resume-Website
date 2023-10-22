@@ -3,10 +3,10 @@ import "./styles.css"
 
 function Qualifications() {
     return(
-        <div className="h-screen min-[500px]:w-[90vw] w-screen" id="Qualifications">
+        <div className="h-fit min-[500px]:w-[90vw] w-screen" id="Qualifications">
         <div className=" text-white text-xl justify-items-center grid grid-cols-2" >
-        <h1 className="z-20 shadow-md pb-5 font-bold ">The Languages I use</h1>
-        <h1 className="z-20 shadow-md pb-5 font-bold ">The Technologies I use</h1>
+        <h1 className="z-20 min-[700px]:pb-5 font-bold col-span-2 max-[700px]:text-xs">The Languages and Technologies I use</h1>
+        
         </div>
         <div className=" text-white h-[70%] justify-items-center grid grid-cols-2 justify-center">
         <div id="back" className="max-[500px]:mt-5  min-[1000px]:aspect-square  justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
