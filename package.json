@@ -13,10 +13,12 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "github-pages": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-pages": "^0.7.9",
     "react-router-dom": "^6.17.0",
     "react-router-hash-link": "^2.4.3"
   },
@@ -31,7 +33,6 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.4.11",
-    
+    "vite": "^4.4.11"
   }
 }
