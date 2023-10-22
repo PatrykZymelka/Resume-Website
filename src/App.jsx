@@ -31,7 +31,7 @@ function App() {
   });
 
   return (
-    <div className="bg-background w-screen truncate relative ">
+    <div className="bg-background max-[500px]:w-screen w-[98%] truncate relative ">
       <div className="grid-cols-2 ">
         <div className="z-20 max-[500px]:scale-0 vertical-lr fixed top-0 right-0 flex justify-evenly gap-20  h-screen pr-3 bg-secondary text-white pl-3 text-base border-l-2 border-primary font-bold">
           <Link to="#About" smooth>
