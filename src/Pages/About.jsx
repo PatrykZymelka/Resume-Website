@@ -12,7 +12,7 @@ function About() {
             Patryk Żymełka
           </h1>
           <h1 className="whitespace-pre-line">
-          Third year student at Politechnika Wrocławska, Poland.
+          Embedded Software Engineer
         </h1>
       </div>
       <div id="back" className="row-span-2 max-[500px]:mt-5 h-fit  justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">

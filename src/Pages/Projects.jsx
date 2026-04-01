@@ -40,12 +40,12 @@ function Proj() {
             <div id="back" className="max-[1200px]:order-3 max-[1200px]:col-span-2 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
                 <div className="innerCard3">
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
-                        <h1 className="whitespace-pre-line text-2xl font-bold">Resume Website</h1>
+                        <h1 className="whitespace-pre-line text-2xl font-bold">Frequency Counter</h1>
                         <a >
                             <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={R} alt="Resume" />
                         </a>
                         <h1 className="whitespace-pre-line">Personal resume site on which you are currently on. It was built in order to showcase my frontend skills, tell you more about myself and give you my contact information.</h1>
-                        <h1 className="whitespace-pre-line">This single page site has been built using React and Tailwindcss. It has quite a few notable features like the cursor follower, animated gradient background borders and a few blurred hover effects. It was built to be fully operational in both mobile and desktop view.</h1>
+                        <h1 className="whitespace-pre-line">https://www.linkedin.com/posts/kaczmarek-grzegorz_synchronization-timekeeping-frequency-activity-7214203512904163328-ULe9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEHUzWwBQasXKeeuTz5Rp4o7L23ioTOB4fo</h1>
                         <a  className="w-fit justify-self-center">
                             </a>
                     </div>
