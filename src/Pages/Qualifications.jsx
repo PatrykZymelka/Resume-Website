@@ -50,7 +50,7 @@ function Qualifications() {
                 <img className="back" src="https://idoelectronics.eu/wp-content/uploads/2024/06/FreeRTOS.png" alt="FreeRTOS"/>
                 
                 <p className="Small">FreeRTOS</p>
-                    <img className="aspect-square w-32" src="https://idoelectronics.eu/wp-content/uploads/2024/06/FreeRTOS.png" alt="FreeRTOS"/>
+                    <img className="aspect-square w-48" src="https://idoelectronics.eu/wp-content/uploads/2024/06/FreeRTOS.png" alt="FreeRTOS"/>
                 </a>
                 
                 <a href="https://archlinux.org/" className="Big">
