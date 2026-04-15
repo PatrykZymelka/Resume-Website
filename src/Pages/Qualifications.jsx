@@ -11,15 +11,10 @@ function Qualifications() {
         <div className=" text-white h-[70%] justify-items-center grid grid-cols-2 justify-center">
         <div id="back" className="max-[500px]:mt-5  min-[1000px]:aspect-square  justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
             <div className="innerCard2">
-                <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" className="Big">
-                <img className="back" src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" alt="JavaS"/>
-                <p className="Small">JavaScript</p>
-                    <img className="aspect-square w-32" src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" alt="JavaS"/>
-                </a>
-                <a href="https://www.java.com/pl/" className="Big">
-                <img className="back" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" alt="Java"/>
-                    <p className="Small">Java</p>
-                    <img className="aspect-square w-32" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png" alt="Java"/>
+                <a href="https://cdn.iconscout.com/icon/free/png-256/free-c-icon-svg-download-png-1175247.png" className="Big">
+                <img className="back" src="https://cdn.iconscout.com/icon/free/png-256/free-c-icon-svg-download-png-1175247.png" alt="JavaS"/>
+                <p className="Small">C</p>
+                    <img className="aspect-square w-32" src="https://cdn.iconscout.com/icon/free/png-256/free-c-icon-svg-download-png-1175247.png" alt="JavaS"/>
                 </a>
                 <a href="https://cplusplus.com" className="Big">
                 <img className="back" src="https://images.vexels.com/media/users/3/166253/isolated/lists/14bc03b7b1c2c4e2656fd4c0a981cbbc-cpp-programming-language-icon.png" alt="C++"/>
@@ -27,39 +22,48 @@ function Qualifications() {
                 <p className="Small">C++</p>
                     <img className="aspect-square w-32" src="https://images.vexels.com/media/users/3/166253/isolated/lists/14bc03b7b1c2c4e2656fd4c0a981cbbc-cpp-programming-language-icon.png" alt="C++"/>
                 </a>
+                
+                
+                
                 <a href="https://www.python.org" className="Big">
                 <img className="back" src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png" alt="Python"/>
                 
                 <p className="Small">Python</p>
                     <img className="aspect-square w-32" src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png" alt="Python"/>
                 </a>
+                <a href="https://www.mysql.com/" className="Big">
+                <img className="back" src="src/Logos/SQL.png" alt="SQL"/>
+                    <p className="Small">SQL</p>
+                    <img className="aspect-square w-32" src="src/Logos/SQL.png" alt="SQL"/>
+                </a>
             </div>
             </div>
         <div id="back" className="max-[500px]:mt-5 min-[1000px]:aspect-square justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md w-5/6 z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
                 <div className="innerCard2">
-            <a href="https://pl.legacy.reactjs.org" className="Big">
-                <img className="back" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="React"/>
-                
-                <p className="Small">React</p>
-                    <img className="aspect-square w-32" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png" alt="React"/>
-                </a>
-                <a href="https://tailwindcss.com" className="Big">
-                <img className="back" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png" alt="Tail"/>
-                
-                <p className="Small">Tailwindcss</p>
-                    <img className="aspect-square w-32" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png" alt="Tail"/>
-                </a>
-                <a href="https://git-scm.com" className="Big">
+            <a href="https://git-scm.com" className="Big">
                 <img className="back" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png" alt="Git"/>
                 
                 <p className="Small">Git</p>
                     <img className="aspect-square w-32" src="https://iconape.com/wp-content/png_logo_vector/git-icon.png" alt="Git"/>
                 </a>
-                <a href="https://vitejs.dev" className="Big">
-                <img className="back" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" alt="Vite"/>
+                <a href="https://www.freertos.org/" className="Big">
+                <img className="back" src="https://idoelectronics.eu/wp-content/uploads/2024/06/FreeRTOS.png" alt="FreeRTOS"/>
                 
-                <p className="Small">ViteJs</p>
-                    <img className="aspect-square w-32" src="https://seeklogo.com/images/V/vite-logo-BFD4283991-seeklogo.com.png" alt="Vite"/>
+                <p className="Small">FreeRTOS</p>
+                    <img className="aspect-square w-32" src="https://idoelectronics.eu/wp-content/uploads/2024/06/FreeRTOS.png" alt="FreeRTOS"/>
+                </a>
+                
+                <a href="https://archlinux.org/" className="Big">
+                <img className="back" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/3840px-Arch_Linux_%22Crystal%22_icon.svg.png" alt="Arch"/>
+                
+                <p className="Small">Arch Linux</p>
+                    <img className="aspect-square w-32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/3840px-Arch_Linux_%22Crystal%22_icon.svg.png" alt="Arch"/>
+                </a>
+                 <a href="https://cmake.org/" className="Big">
+                <img className="back" src="https://cdn.iconscout.com/icon/free/png-256/free-cmake-logo-icon-svg-download-png-2944790.png" alt="React"/>
+                
+                <p className="Small">Cmake</p>
+                    <img className="aspect-square w-32" src="https://cdn.iconscout.com/icon/free/png-256/free-cmake-logo-icon-svg-download-png-2944790.png" alt="React"/>
                 </a>
             </div>
             </div>
