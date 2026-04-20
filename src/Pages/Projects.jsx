@@ -1,7 +1,9 @@
 import "./styles.css"
-import A from "../Logos/Altdorf1.png"
-import Chat from "../Logos/Chat.png"
-import R from "../Logos/REs.png"
+import Dice from "../Logos/Dice.jpg"
+import Key from "../Logos/Keyboard.jpg"
+import Shield from "../Logos/Shield.jpg"
+import KPZ from "../Logos/KPZ.png"
+
 function Proj() {
     return(
         <div className="h-fit w-[90%] max-[1200px]:w-[80%] text-white grid  max-[1200px]:grid-cols-2 grid-cols-2 mt-40 min-[1200px]:grid-rows-10 my-10 max-[500px]:gap-x-6 gap-x-10 gap-y-5" id="Project">
@@ -12,7 +14,7 @@ function Proj() {
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
                         <h1 className="whitespace-pre-line text-2xl font-bold ">Dice Thrower</h1>
                         <a href="https://github.com/PatrykZymelka/DiceThrowerFinal">
-                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src="src/Logos/Dice.jpg" alt="Chat" />
+                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={Dice} alt="Dice Thrower" />
                         </a>
                         <h1 className="whitespace-pre-line">TOODOODODODO</h1>
                         <h1 className="whitespace-pre-line">TODOOODODODODODO</h1>
@@ -27,7 +29,7 @@ function Proj() {
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
                         <h1 className="whitespace-pre-line text-3xl font-bold ">Stenotype Keyboard</h1>
                         <a href="https://github.com/PatrykZymelka/StenoKeyboard">
-                            <img className="border-2 hover:border-red-600 border-red-500 rounded-md hover:scale-[101%] duration-500" src="src/Logos/Keyboard.jpg" alt="Altdorf" />
+                            <img className="border-2 hover:border-red-600 border-red-500 rounded-md hover:scale-[101%] duration-500" src={Key} alt="Steno Keyboard" />
                         </a>
                         <h1 className="whitespace-pre-line ">An Engineering Degree project, focused on building and programming a stenotype keyboard.</h1>
                         <h1 className="whitespace-pre-line">The project was divided into multiple parts: designing the electronic</h1>
@@ -42,7 +44,7 @@ function Proj() {
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
                         <h1 className="whitespace-pre-line text-2xl font-bold ">Arduino Leonardo Shield</h1>
                         <a href="https://github.com/PatrykZymelka/Arduino-Leonardo-Shield">
-                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src="src/Logos/Shield.jpg" alt="Chat" />
+                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={Shield} alt="Shield" />
                         </a>
                         <h1 className="whitespace-pre-line">TOODODODODODOD</h1>
                         <h1 className="whitespace-pre-line">TODOODODODDOODODOD</h1>
@@ -57,7 +59,7 @@ function Proj() {
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
                         <h1 className="whitespace-pre-line text-2xl font-bold ">Frequency Counter</h1>
                         <a href="https://www.linkedin.com/posts/kaczmarek-grzegorz_synchronization-timekeeping-frequency-activity-7214203512904163328-ULe9">
-                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src="src/Logos/KPZ.png" alt="Chat" />
+                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={KPZ} alt="Frequency Counter" />
                         </a>
                         <h1 className="whitespace-pre-line">Project made for, and with the assistance of, Thaumatec Tech Group. This device was created to precisely measure signals up to 10MHz. With such high frequencies normal results would drift by couple of Hertz, due to internal heating or task scheaduling. While our device by using GNSS receiver as a time reference was able to acquire precise results up to the resolution of 0.1Hz.</h1>
                         <h1 className="whitespace-pre-line">To show that the device worked we built two identical units. Each unit was able to work in two modes: internal timer mode and reference mode. In the internal timer mode, the device used internal timers to send the signal with the desired frequency. This solution would drift and give innacurate reading at higher frequencies (Mostly because of internal heating of the device). While using the reference signal we used FreeRTOS to synchronize the tasks. It came in handy mostly while working with two cores of ESP32, first core was only used to count the signals and send an interrupt when the desired frequency was met, the other core was used to synchronize the counting with the reference and display the results on the display.</h1>

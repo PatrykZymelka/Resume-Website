@@ -1,5 +1,5 @@
 import "./styles.css"
-
+import SQL from "../Logos/SQL.png"
 
 function Qualifications() {
     return(
@@ -32,9 +32,9 @@ function Qualifications() {
                     <img className="aspect-square w-32" src="https://logos-download.com/wp-content/uploads/2016/10/Python_logo_icon.png" alt="Python"/>
                 </a>
                 <a href="https://www.mysql.com/" className="Big">
-                <img className="back" src="src/Logos/SQL.png" alt="SQL"/>
+                <img className="back" src={SQL} alt="SQL"/>
                     <p className="Small">SQL</p>
-                    <img className="aspect-square w-32" src="src/Logos/SQL.png" alt="SQL"/>
+                    <img className="aspect-square w-32" src={SQL} alt="SQL"/>
                 </a>
             </div>
             </div>
