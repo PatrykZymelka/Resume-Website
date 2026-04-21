@@ -47,21 +47,7 @@ function Proj() {
                     </div>
                 </div>
             </div>
-            <div id="back" className="max-[1200px]:order-2 max-[1200px]:col-span-2 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
-                <div className="innerCard3">
-                    <div className="grid m-5 gap-5 max-[500px]:text-xs">
-                        <h1 className="whitespace-pre-line text-2xl font-bold ">Arduino Leonardo Shield</h1>
-                        <a href="https://github.com/PatrykZymelka/Arduino-Leonardo-Shield">
-                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={Shield} alt="Shield" />
-                        </a>
-                        <h1 className="whitespace-pre-line">TOODODODODODOD</h1>
-                        <h1 className="whitespace-pre-line">TODOODODODDOODODOD</h1>
-                        <a href="https://github.com/PatrykZymelka/Arduino-Leonardo-Shield" className="w-fit justify-self-center">
-                            <button className="border-2 border-primary hover:border-accent rounded-md px-12 py-4 hover:scale-[105%] duration-500"><h1 className="whitespace-pre-line text-transparent bg-clip-text font-bold bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad">Github Repositiory</h1></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
             <div id="back" className="max-[1200px]:order-2 max-[1200px]:col-span-2 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
                 <div className="innerCard3">
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
@@ -78,7 +64,25 @@ function Proj() {
                     </div>
                 </div>
             </div>
-            
+            <div id="back" className="max-[1200px]:order-2 max-[1200px]:col-span-2 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit justify-self-center bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad rounded-md z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
+                <div className="innerCard3">
+                    <div className="grid m-5 gap-5 max-[500px]:text-xs">
+                        <h1 className="whitespace-pre-line text-2xl font-bold ">Arduino Leonardo Shield</h1>
+                        <a href="https://github.com/PatrykZymelka/Arduino-Leonardo-Shield">
+                            <img className="border-2  border-primary hover:border-accent rounded-md hover:scale-[101%] duration-500" src={Shield} alt="Shield" />
+                        </a>
+                        <h1 className="whitespace-pre-line">A PCB design project in which I have designed a shield for the Arduino Leonardo board. It was fully designed in the Altium Designer program. The whole project was designed, soldered and programmed by me. This shield is supposed to extend the functionality of the Leonardo board with the following features:</h1>
+                            <h1 className="whitespace-pre-line">1) Temperature sensor </h1> 
+                            <h1>2) Optical sensor </h1> 
+                            <h1>3) STM8L Programmable MCU </h1> 
+                        <h1 className="whitespace-pre-line">In addition to those components the shield uses multiple headers to extend the ports of the arduino board. The sensors communicate with the MCU via the I2C protocol, because of which the shield was also designed with I2C pullup resistors. There are two user diodes and a power on diode. The whole device can be powered via the USB port, next to which there is a 5V to 3.3V voltage regulator.</h1>
+                         <h1 className="whitespace-pre-line">Used technologies: PCB design, Arduino IDE</h1>
+                        <a href="https://github.com/PatrykZymelka/Arduino-Leonardo-Shield" className="w-fit justify-self-center">
+                            <button className="border-2 border-primary hover:border-accent rounded-md px-12 py-4 hover:scale-[105%] duration-500"><h1 className="whitespace-pre-line text-transparent bg-clip-text font-bold bg-gradient-to-l from-blue-700 via-green-400 to-blue-700 bg-300% hover:animate-fgrad">Github Repositiory</h1></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
             
         </div>
         )
