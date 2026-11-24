@@ -3,6 +3,8 @@ import Dice from "../Logos/Dice.jpg"
 import Key from "../Logos/Keyboard.jpg"
 import Shield from "../Logos/Shield.jpg"
 import KPZ from "../Logos/KPZ.png"
+import BZS from "../Logos/Bez_sys.png"
+import BLE from "../Logos/BLE.jpg"
 
 function Proj() {
     return(
@@ -25,6 +27,24 @@ function Proj() {
                     </div>
                 </div>
             </div>
+            <div id="back" className="max-[1200px]:order-1 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit  justify-self-center bg-gradient-to-l from-green-500 via-green-200 to-green-500 bg-300% hover:animate-fgrad rounded-md   z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
+                <div className="innerCard3">
+                    <div className="grid m-5 gap-5 max-[500px]:text-xs">
+                        <h1 className="whitespace-pre-line text-3xl font-bold ">Wireless BLE Display Device</h1>
+                        <a href="https://github.com/PatrykZymelka/ESP32-Bluetooth-display-device">
+                            <img className="border-2 hover:border-green-600 border-green-500 rounded-md hover:scale-[101%] duration-500" src={BLE} alt="Bluetooth" />
+                        </a>
+                        <h1 className="whitespace-pre-line ">This wireless, battery-powered device was designed to keep track of multiple values simultaneously during TTRPG sessions. It features two OLED displays and an 8 digit 7 segment display, allowing users to monitor several different values at once. Its main functionality is to receive and display data transmitted via Bluetooth Low Energy (BLE). Values displayed on the OLED screens and 7 segment display can be updated wirelessly through Bluetooth. Additionally, each 7-segment display has its own set of physical buttons, allowing users to manually increase or decrease the displayed values directly on the device.</h1>
+                        <h1 className="whitespace-pre-line">The device is built around an ESP32 microcontroller, taking advantage of its integrated Bluetooth Low Energy capabilities for wireless communication. It is powered by a 3.7V LiPo battery connected to a dedicated charging circuit and a step-up voltage converter to provide the required operating voltage. The entire embedvded software implementation has been completed and is available through the GitHub link below.</h1>
+                        <h1 className="whitespace-pre-line">Used Technologies: C, ESP32 Microcontroller, Bluetooth Low Energy (BLE), ESP-IDF, CAD design </h1>
+                        <h1 className="whitespace-pre-line"></h1>
+
+                        <a href="https://github.com/PatrykZymelka/ESP32-Bluetooth-display-device" className="w-fit justify-self-center">
+                            <button className="border-2 border-green-500 hover:border-green-400 rounded-md px-12 py-4 hover:scale-[105%] duration-500"><h1 className="whitespace-pre-line text-transparent bg-clip-text font-bold bg-gradient-to-l from-green-500 via-green-100 to-green-500 bg-300% animate-fgrad">Github Repository</h1></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <div id="back" className="max-[1200px]:order-1 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit  justify-self-center bg-gradient-to-l from-red-500 via-red-200 to-red-500 bg-300% hover:animate-fgrad rounded-md   z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
                 <div className="innerCard3">
                     <div className="grid m-5 gap-5 max-[500px]:text-xs">
@@ -33,16 +53,31 @@ function Proj() {
                             <img className="border-2 hover:border-red-600 border-red-500 rounded-md hover:scale-[101%] duration-500" src={Key} alt="Steno Keyboard" />
                         </a>
                         <h1 className="whitespace-pre-line ">The goal of this project was to design and build a fully embedded stenotype keyboard using an STM32F411CEU6 BlackPill microcontroller. A stenotype keyboard enables high-speed typing using shorthand based on phonetics, allowing users to keep up with spoken conversation. The device was designed to function as a plug-and-play keyboard on any computer without requiring external drivers, using USB HID to emulate standard keyboard input. The project involved following development steps:</h1>
-
-<h1 className="whitespace-pre-line">Designing a custom PCB to support the specialized stenotype key layout.</h1>
-<h1 className="whitespace-pre-line">Creating and 3D printing a custom case for usability and durability.</h1>
-<h1 className="whitespace-pre-line">Programming the firmware in C using STM32 CubeIDE.</h1>
-<h1 className="whitespace-pre-line">The main challenge was implementing real-time translation of simultaneous key combinations (chords) into words. Instead of processing individual key presses, the system stores each chord in a buffer, translates it into the corresponding word, and sends the result as keyboard output. This project was created as an engineering thesis, you can read all the details of this project in the pdf contained in my github repository.</h1>
-<h1 className="whitespace-pre-line">Used Technologies: C, STM32 Microcontroller, STM32 CubeIDE, PCB Design, CAD design </h1>
-<h1 className="whitespace-pre-line"></h1>
+                        <h1 className="whitespace-pre-line">Designing a custom PCB to support the specialized stenotype key layout.</h1>
+                        <h1 className="whitespace-pre-line">Creating and 3D printing a custom case for usability and durability.</h1>
+                        <h1 className="whitespace-pre-line">Programming the firmware in C using STM32 CubeIDE.</h1>
+                        <h1 className="whitespace-pre-line">The main challenge was implementing real-time translation of simultaneous key combinations (chords) into words. Instead of processing individual key presses, the system stores each chord in a buffer, translates it into the corresponding word, and sends the result as keyboard output. This project was created as an engineering thesis, you can read all the details of this project in the pdf contained in my github repository.</h1>
+                        <h1 className="whitespace-pre-line">Used Technologies: C, STM32 Microcontroller, STM32 CubeIDE, PCB Design, CAD design </h1>
+                        <h1 className="whitespace-pre-line"></h1>
 
                         <a href="https://github.com/PatrykZymelka/StenoKeyboard" className="w-fit justify-self-center">
                             <button className="border-2 border-red-500 hover:border-red-400 rounded-md px-12 py-4 hover:scale-[105%] duration-500"><h1 className="whitespace-pre-line text-transparent bg-clip-text font-bold bg-gradient-to-l from-red-500 via-red-100 to-red-500 bg-300% animate-fgrad">Github Repository</h1></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="back" className="max-[1200px]:order-2 max-[1200px]:col-span-2 col-span-1 row-span-9 max-[500px]:mt-5 h-fit w-fit justify-self-center bg-gradient-to-l from-yellow-700 via-yellow-400 to-yellow-700 bg-300% hover:animate-fgrad rounded-md z-10 shadow-md duration-1000 hover:scale-[102%] hover:duration-1000 ">
+                <div className="innerCard3">
+                    <div className="grid m-5 gap-5 max-[500px]:text-xs">
+                        <h1 className="whitespace-pre-line text-2xl font-bold ">Wireless Animal Stress Measuring Device</h1>
+                        <a href="https://github.com/PatrykZymelka/Bezprzewodowy_Pomiar_Dobrostanu_ESP32/blob/main/Project%20Overview%20Presentation.pdf">
+                            <img className="border-2  hover:border-yellow-600 border-yellow-500 rounded-md hover:scale-[101%] duration-500" src={BZS} alt="Bez_sys.png" />
+                        </a>
+                        <h1 className="whitespace-pre-line">My masters degree project at Politechnika Wrocławska. Its official title is: "Bezprzewodowy system do badania i oceny dobrostanu krów". The main aim of this project was to create a device that would be able to measure and show live the stress level of free roaming cows, in order to pinpoint the stress factors in their lives and eliminate it. The device was based on an ESP32 microcontroller, with its WiFi capabilites I was able to use the MQTT protocol to connect and monitor a live stream of data from multiple sensors at once. The system monitored three main parameters: the animal's breathing rate (using an NTC 110 glass thermistor), heart rate, and blood oxygen saturation (using an integrated MAX30102 sensor). The device was powered by a Li-Po battery equipped with a dedicated charging circuit and battery protection system.</h1>
+                        <h1 className="whitespace-pre-line">The device went through several development stages and multiple real-world tests on animals. Version 3.0 was replicated into four independent devices, all operating wirelessly and transmitting data in real time to an MQTT broker hosted on a Raspberry Pi microcomputer. By clicking the button below, you can view a presentation providing an overview of the project and its development up to July 2026.</h1>
+                        <h1 className="whitespace-pre-line">Used technologies: C++, MQTT Protocol, ESP-32 Micronontroller, Raspberry Pi, Sensors, CAD design</h1>
+                        <a href="https://github.com/PatrykZymelka/Bezprzewodowy_Pomiar_Dobrostanu_ESP32/blob/main/Project%20Overview%20Presentation.pdf" className="w-fit justify-self-center">
+                            <button className="border-2 hover:border-yellow-600 border-yellow-500 rounded-md px-12 py-4 hover:scale-[105%] duration-500"><h1 className="whitespace-pre-line text-transparent bg-clip-text font-bold bg-gradient-to-l from-yellow-700 via-yellow-400 to-yellow-700 bg-300% hover:animate-fgrad">Project Overview Presentation</h1></button>
                         </a>
                     </div>
                 </div>
